@@ -362,7 +362,7 @@ body {
     /*color:#ffffff; /* white */*/
 }
                 
-#contact {
+.contact {
 	font-size: 0.8em;
 }
 
@@ -483,13 +483,14 @@ body {
 
 .navigation2 ul{
 /* positioning */
+	top: -2px;
 	position:relative;
     z-index: 5;
 /* remove the dots next to list items: */
     list-style:none; 
 /* get rid of any default or inherited margins and padding: */
     margin: 0; 
-    padding: 0; 
+    padding: 0px;
     text-align: center;
 /* styling: *//*
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -503,7 +504,7 @@ body {
 
 /* we're using the direct descendant selectors > to ONLY affect the main menu items */
 .navigation2  ul li {
-	border: yellow solid 2px;
+	/*border:  yellow solid 1px;*/
 /* positioning */ 
    /* position: relative;
     float: left;*/
@@ -527,19 +528,19 @@ body {
 }*/
 
 .navigation2 ul li a {
-	border: black dotted 2px;
+	/*border: black dotted 2px;*/
 /* positioning */ 
 	position:relative;
 	width: 105px;
 	/*height: 25px;*/
-	top: 0px;
+	top: 5px;
 	/*right: 5px;*/
     display: block;
 /* styling: */
     /*background-color: red; /*  grey */
     /*line-height: 1em;*/
     /*margin: 1em 1em;*/
-    padding: 0px 0px 20px 0px;
+    padding: 5px 0px 30px 0px;
     text-decoration: none;
     /*font-size: 5px;*/
     color: red; 
@@ -553,6 +554,9 @@ body {
     
 }
 
+/*#contact22 {
+	font-size: 120%;
+}*/
 
 
 .navigation2  ul  li  a:hover {
@@ -591,89 +595,42 @@ body {
     display:block;
     opacity: 1;
 }
-/*
-.navigation2 ul ul {
-            
-    /*background-color:#e6056f;  remove. this is for illustration purposes only */
-    /*width:100px;*/ /* you need a width to accommodate tertiary menus */
-  /*  
-    position:absolute;
-    z-index:100;
-    right: 100px;
-    top: 0px;
-    height: 0px;
-    overflow: hidden;
-    /*width: 100;*/
-/*
-    -webkit-transition: width 0.3s ease-in;
-    -moz-transition: width 0.3s ease-in;
-    -o-transition: width 0.3s ease-in;
-    -ms-transition: width 0.3s ease-in;
-    transition: width 0.3s ease-in;
-}
-        */
 
-/* don't display tertiary box yet */
-/*.navigation2 > ul > li:hover ul ul, .navigation > ul > li > a:hover ul ul{
-    height: 0px;
-    width: 100px;
-    overflow: visible;
-    text-align: right;
-    */
-}
-/* tertiary drop-down box */
-/*.navigation2 ul ul ul{
-    left:170px;
-    width:170px;
-}
-*/
-/*.navigation2 > ul > li:hover ul, .navigation2 > ul > li > a:hover ul,
-.navigation2 ul ul li:hover > ul, .navigation2 ul ul li a:hover > ul{
-    height:220px;*/ /* need a height to accommodate any tertiary menus */
+#hieroBox {
+	opacity: 1;
+	position: fixed;
+    width: 104px;
+    /*width: 900px;*/
+	height: 210px;
+    top: 214px;
+    right: 1.6%;
+    /*border: black dotted 2px;*/
+    z-index: 5;
 }
 
-/* drop-down item styles */
-/* if you want different styling for tertiary menus, just copy the 4 rules below and insert an additional ul: for example: ".navigation ul ul li", becomes: ".navigation ul ul ul li" */
-
-/*.navigation2 ul ul li{
-    background-color:#eaeaea; /* grey */
-/*    width: 110px;
-    -webkit-transition: background-color 0.3s ease;
-            -moz-transition: background-color 0.3s ease;
-            -o-transition: background-color 0.3s ease;
-            -ms-transition: background-color 0.3s ease;
-            transition: background-color 0.3s ease;
-}*/
-
-/*.navigation2 ul ul li:hover {
-    background-color:#999; /* grey */
-    width: 100px;
-}*/
-
-/*.navigation2 ul ul li a {
-    display:block;
-    text-decoration:none;
-    margin:0 12px;
-    padding:5px 0;
-    color:#4c4c4c; /* grey */
+#hieroBox ul {
+	list-style-type: none;
+	/*border: blue solid 2px;*/
+	padding: 0px;
+	margin: none;
 }
-/*.navigation2 ul ul li a:hover, .navigation ul ul li:hover > a {
-    color:#ffffff; /* white */
-}
-    */            
+
 
 
 
 
 
 #boxx {
-	position: absolute;
+	position: relative;
 	visibility: visible;
-	height: 900px;
-	width: 100px;
-	top: 500px;
-	border: green solid 3px;
+	height: 10px;
+	width: 100%;
+	top: -250px;
+	/*border: green solid 3px;*/
 }
+
+
+
 
 #fuadOvalBox {	
 	/*border: red solid 1px;*/
@@ -702,7 +659,7 @@ body {
 	shape-outside: url("pic/fuad.png");
 	shape-image-threshold: 0.0;*/
 	/* ^^  This takes out the background fill in!*/
-	/*border: black solid 1px;*/
+	/*border: white solid 1px;*/
 	/*background-color: white;*/
 	/*z-index: 5;*/
 }
@@ -770,7 +727,7 @@ body {
 	position: relative;
 	width: 100%;
 	height: 266px;
-	top: 50px;
+	top: 150px;
 	/*background-color: #ffd24d;*/
 	background-image: url("pic/fez.jpg");
 	background-attachment: fixed;
@@ -786,8 +743,8 @@ body {
 	/*float: left;		*/
 	width: 250px;
 	height: 366px;
-	top: -280px;
-	right: 48%;
+	top: -180px;
+	right: 0%;
 	shape-outside: url("pic/rnr.png");
 	shape-image-threshold: 0.0;
 	/*border: black solid 1px;*/
@@ -838,7 +795,7 @@ body {
 	position: relative;
 	width: 100%;
 	height: 266px;
-	top: -250px;
+	top: -150px;
 	/*background-color: #ffd24d;*/
 	background-image: url("pic/fez.jpg");
 	background-attachment: fixed;
@@ -854,7 +811,7 @@ body {
 	/*float: left;		*/
 	width: 250px;
 	height: 366px;
-	top: -575px;
+	top: -475px;
 	left: 70%;
 	/*
 	shape-outside: url("pic/rnr.png");
@@ -907,7 +864,7 @@ body {
 	position: relative;
 	width: 100%;
 	height: 266px;
-	top: -610px;
+	top: -510px;
 	/*background-color: #ffd24d;*/
 	background-image: url("pic/fez.jpg");
 	background-attachment: fixed;
@@ -923,7 +880,7 @@ body {
 	/*float: left;		*/
 	width: 350px;
 	height:466px;
-	top: -860px;
+	top: -760px;
 	left: 3%;
 	z-index: 4;
 	/*
@@ -975,7 +932,7 @@ body {
 	position: relative;
 	width: 100%;
 	height: 266px;
-	top: -980px;
+	top: -880px;
 	/*background-color: #ffd24d;*/
 	background-image: url("pic/fez.jpg");
 	background-attachment: fixed;
@@ -991,7 +948,7 @@ body {
 	/*float: left;		*/
 	width: 250px;
 	height: 66px;
-	top: -1290px;
+	top: -1190px;
 	left: 75%;
 	/*
 	shape-outside: url("pic/rnr.png");
@@ -1045,7 +1002,7 @@ body {
 	position: relative;
 	width: 100%;
 	height: 266px;
-	top: -1300px;
+	top: -1200px;
 	/*background-color: #ffd24d;*/
 	background-image: url("pic/fez.jpg");
 	background-attachment: fixed;
@@ -1061,7 +1018,7 @@ body {
 	/*float: left;		*/
 	width: 250px;
 	height: 366px;
-	top: -1600px;
+	top: -1500px;
 	right: 0%;
 	/*border: black solid 1px;*/
 }
@@ -1110,7 +1067,7 @@ body {
 #showPosterBox {
 	position: relative;
 	width: 900px;
-	height: 1500px;
+	height: 700px;
 	top: -1500px;
 	/*border: red solid 2px;*/
 	margin-right: auto;
@@ -1122,7 +1079,7 @@ body {
 	position: relative;
 	display: inline-block;
 	width: 400px;
-	padding: 30px 20px 0px 20px;
+	padding: 30px 20px 0px 60px;
 	height: auto;
 	resize: both;
 	/*right: -5%;*/
@@ -1133,3 +1090,19 @@ body {
 	/*margin: top: 100px;*/
 }
 
+#contactBox {
+	position: relative;
+	display: inline-block;
+	font-size: 2em;
+	color: white;
+	/*margin-top: 100px;*/
+	height: 300px;
+	width: 100%;
+	padding: 50px 0px 10px 0px;
+	top: -1500px;
+	/*border: red solid 2px;*/
+}
+
+#contactBox a {
+	color: white;
+}
