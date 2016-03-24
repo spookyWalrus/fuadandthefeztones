@@ -2,10 +2,10 @@
 
 // Fuad's javascript coding! 
 
-$('#bio').click(function() {
-    $("html, body").animate({scrollTop: 0}, 600);
-    return false;
-}); 
+// $('#bio').click(function() {
+//     $("html, body").animate({scrollTop: 0}, 600);
+//     return false;
+// }); 
 
 
 
@@ -89,7 +89,7 @@ window.onscroll = function() {alertFunk();};
 function alertFunk() {
     if (document.body.scrollTop > 570 || document.documentElement.scrollTop > 270) {
         document.querySelector(".menubar2").style.visibility = "visible";
-        alert("you scrolled");   
+          
 
     } else if (document.body.scrollTop < 570 || document.documentElement.scrollTop < 270) {
         document.querySelector(".menubar2").style.visibility = "hidden";
