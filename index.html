@@ -45,12 +45,12 @@
 		
 				<li class="dropdownMenu"><img src="pic/hiero/band.png" id="bioHiero"></img>
 					<ul class="menuItems">
-						<li id="band"><a href="#fuad-box">Band</a></li>
+						<li id="band"><a href="#">Band</a></li>
 					</ul>
 				</li>
 				<li class="dropdownMenu"><img src="pic/hiero/shows.png" id="showsHiero"></img>
 					<ul class="menuItems">
-						<li id="shows"><a href="#showPosterBox">Shows</a></li>
+						<li id="shows"><a href="#">Shows</a></li>
 					</ul>
 				</li>
 				<li class="dropdownMenu"><img src="pic/hiero/music.png" id="musicHiero"></img>
@@ -65,20 +65,11 @@
 				</li>
 				<li class="dropdownMenu"><img src="pic/hiero/contact.png" id="contactHiero"></img>
 					<ul class="menuItems">
-						<li id="contact"><a href="#">Contact</a></li>
+						<li class="contact"><a href="#">Contact</a></li>
 					</ul>
 				</li>
 			</ul>
 	
-
-				<!-- 	<li id="home"><a href="#">Home</a></li>
-					<li id="bio"><a href="#fuad-boxid">The band</a></li>
-					<li id="shows"><a href="#showPosterBox">Shows</a></li>
-					<li id="music"><a href="#">Music</a></li>	
-					<li id="blog"><a href="http://feztonesineurope.blogspot.ca/">Blog</a></li>
-					<li id="contact"><a href="#fuadContact">Contact</a></li>
-				</ul>	-->
-			<!-- </div>	 -->
 		</div>
 	</nav>	
 
@@ -96,51 +87,54 @@
 	</div>
 
 	<nav class="menubar2">	
+			<div id="hieroBox">
+				<ul>
+					<li class="dropdownMenu"><img src="pic/hiero/home.png" id="homeHiero"></img></li>
+					<li class="dropdownMenu"><img src="pic/hiero/band.png" id="bioHiero"></img></li>
+					<li class="dropdownMenu"><img src="pic/hiero/shows.png" id="showsHiero"></img></li>
+					<li class="dropdownMenu"><img src="pic/hiero/music.png" id="musicHiero"></img></li>
+					<li class="dropdownMenu"><img src="pic/hiero/blog.png" id="blogHiero"></img></li>
+					<li class="dropdownMenu"><img src="pic/hiero/contact.png" id="contactHiero"></img></li> 
+				</ul>		
+			</div>
 			<div id="menubarBak2"></div>
+
 			<div class="navigation2">
 				<ul>
-				<!-- <div class="hieroMenu"> -->
-					<li class="dropdownMenu"><!-- <img src="pic/hiero/home.png" id="homeHiero"></img> -->
+				<div class="hieroMenu">
+					<li class="dropdownMenu">
 							<li id="home2"><a href="#"><span>Home</span></a></li>
 					</li>
-			
-					<li class="dropdownMenu"><!-- <img src="pic/hiero/band.png" id="bioHiero"></img> -->
-						<!-- <ul class="menuItems2"> -->
+					<li class="dropdownMenu">
 							<li id="band2"><a href="#fuad-box"><span>Band</span></a></li>
-						<!-- </ul> -->
 					</li>
-					<li class="dropdownMenu"><!-- <img src="pic/hiero/shows.png" id="showsHiero"></img> -->
-						<!-- <ul class="menuItems2"> -->
+					<li class="dropdownMenu">
 							<li id="shows2"><a href="#showPosterBox"><span>Shows</span></a></li>
-						<!-- </ul> -->
 					</li>
-					<li class="dropdownMenu"><!-- <img src="pic/hiero/music.png" id="musicHiero"></img> -->
-						<!-- <ul class="menuItems2"> -->
+					<li class="dropdownMenu">
 							<li id="music"><a href="#"><span>Music</span></a></li>
-						<!-- </ul> -->
 					</li>
-					<li class="dropdownMenu"><!-- img src="pic/hiero/blog.png" id="blogHiero"></img> -->
-						<!-- <ul class="menuItems2"> -->
+					<li class="dropdownMenu">
 							<li id="blog2"><a href="http://feztonesineurope.blogspot.ca/"><span>Blog</span></a></li>
-						<!-- </ul> -->
 					</li>
-					<li class="dropdownMenu"><!-- <img src="pic/hiero/contact.png" id="contactHiero"></img> -->
-						<!-- <ul class="menuItems2"> -->
-							<li id="contact"><a href="#"><span>Contact</span></a></li>
-						<!-- </ul> -->
+					<li class="dropdownMenu">
+							<li ><a href="#"><span class="contact">Contact</span></a></li>
 					</li>
-				</ul>
+				
+			</div>
+			</ul>
+				
+
+			<!-- 	<div id="hieroBox">
+					<ul>
+						<li class="dropdownMenu"><img src="pic/hiero/home.png" id="homeHiero"></img></li>
+						<li class="dropdownMenu"><img src="pic/hiero/band.png" id="bioHiero"></img></li>
+						<li class="dropdownMenu"><img src="pic/hiero/shows.png" id="showsHiero"></img></li>
+							
+				</div>	 -->
+
 		
 
-					<!-- 	<li id="home"><a href="#">Home</a></li>
-						<li id="bio"><a href="#fuad-boxid">The band</a></li>
-						<li id="shows"><a href="#showPosterBox">Shows</a></li>
-						<li id="music"><a href="#">Music</a></li>	
-						<li id="blog"><a href="http://feztonesineurope.blogspot.ca/">Blog</a></li>
-						<li id="contact"><a href="#fuadContact">Contact</a></li>
-					</ul>	-->
-				<!-- </div>	 -->
-			</div>
 	</nav>	
 
 
@@ -210,6 +204,13 @@
 		
 	</div>
 
+	<div id="contactBox">
+		<div>
+		<h2>Email: info@fuadandthefeztones.com  </h2>
+			 <br>
+		<p>	<a href="https://www.reverbnation.com/fuadandthefeztones">www.reverbnation.com/fuadandthefeztones<br>
+			<a href="https://www.facebook.com/Fuad-and-The-Feztones-1176278945730724/">www.facebook.com/Fuad-and-The-Feztones</p>
+		</div>
 
 <!-- How to script: 
 1) when screen scrolls down a certain point, the menu bar reconfigures to vertical and float right as fixed menu bar
@@ -218,23 +219,37 @@
   <!--  <a id="#fixed-button" href="#desired-spot">Go to desired spot</a> -->
    
  <script>
-    $(document).ready(function (){
-            $("#bio").click(function (){
-                $('html, body').animate({
-                    scrollTop: $("#fuadOvalBox").offset().top
-                }, 5000);
-            });
-        });
-
-
-
-    $(document).ready(function (){
-        $("#shows").click(function (){
+$(document).ready(function (){
+        $("#band").click(function (){
             $('html, body').animate({
-                scrollTop: $("#showPosterBox").offset().top
-            }, 1000);
+                scrollTop: $("#fuad-box").offset().top
+            }, 800);
         });
+});		
+
+
+
+$(document).ready(function (){
+    $("#shows").click(function (){
+        $('html, body').animate({
+            scrollTop: $("#showPosterBox").offset().top
+        }, 800);
     });
+});
+
+ $(document).ready(function (){
+    $(".contact").click(function (){
+        $('html, body').animate({
+            scrollTop: $("#contactBox").offset().top
+        }, 800);
+    }); 
+});
+
+
+
+
+
+
 </script>
 
 
@@ -271,6 +286,25 @@
 	// document.write(concatString);
 
 	 -->
+	 <!-- Start of StatCounter Code for Adobe Pagemill 3.0 -->
+	 
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=10884004; 
+var sc_invisible=0; 
+var sc_security="f8321f53"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web analytics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="http://c.statcounter.com/10884004/0/f8321f53/0/"
+alt="web analytics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
 </body>
 
 </html>
