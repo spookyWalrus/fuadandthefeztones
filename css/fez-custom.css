@@ -113,7 +113,7 @@
 .fuad-About-bkgrn {
   background-color: red;
   background-image: url('../fez_pics/beeramid2.jpg');
-  background-size: auto;
+  background-size: contain;
   vertical-align: 50px;
   /*margin-top: 200px;*/
 }
