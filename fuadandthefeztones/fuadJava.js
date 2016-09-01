@@ -84,15 +84,15 @@
 //     }, 100);
 
 
-window.onscroll = function() {alertFunk();};    
+// window.onscroll = function() {alertFunk();};    
 
-function alertFunk() {
-    if (document.body.scrollTop > 570 || document.documentElement.scrollTop > 270) {
-        document.querySelector(".menubar2").style.visibility = "visible";
+// function alertFunk() {
+//     if (document.body.scrollTop > 570 || document.documentElement.scrollTop > 270) {
+//         document.querySelector(".menubar2").style.visibility = "visible";
           
 
-    } else if (document.body.scrollTop < 570 || document.documentElement.scrollTop < 270) {
-        document.querySelector(".menubar2").style.visibility = "hidden";
-    }
+//     } else if (document.body.scrollTop < 570 || document.documentElement.scrollTop < 270) {
+//         document.querySelector(".menubar2").style.visibility = "hidden";
+//     }
   
-}
+// }
