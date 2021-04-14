@@ -84,7 +84,9 @@
 	margin: 0 auto;
 }
 
-
+.bottom-50{
+	margin-bottom: 50px;
+}
 
 
 @media (min-width: 320px) {
